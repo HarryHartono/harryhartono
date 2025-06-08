@@ -9,7 +9,7 @@ Welcome to my GitHub profile showcasing my data science projects and application
 
 ### Applications
 - **To-Do App**: A simple application to manage tasks. Users can add, remove, and check off tasks as they complete them.
-- **Tic-Tac-Toe Game**: A classic game where two players take turns marking a space in a 3x3 grid. The first player to get three in a row wins.
+- **Scissors Paper Stone Game**: A classic game where two players take turns throwing either Scissors, Paper or Stone.
 
 ## Getting Started
 
