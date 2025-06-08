@@ -1,0 +1,11 @@
+{
+  "name": "github-profile",
+  "version": "1.0.0",
+  "description": "A GitHub profile page showcasing data science projects, including work from the Google Advanced Data Analytics Coursera course, a To-Do app, and a Tic-Tac-Toe game.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "open src/index.html"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
