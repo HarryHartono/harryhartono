@@ -1,23 +1,28 @@
-# GitHub Profile Projects
+# Harry Hartono's Portfolio
 
-Welcome to my GitHub profile showcasing my data science projects and applications. This profile includes work from the Google Advanced Data Analytics Coursera course, as well as a To-Do app and a Tic-Tac-Toe game.
+Welcome to my personal portfolio repository! This repository contains the source code for my portfolio website, showcasing my projects in data science and web development.
 
-## Projects Overview
+🔗 **[View Portfolio Website](https://harryhartono.github.io/harryhartono/)**
 
-### Data Science Projects
-- **Google Advanced Data Analytics**: This project showcases the skills and methodologies learned during the Coursera course. It includes various analyses and visualizations.
+## Featured Projects
 
-### Applications
-- **To-Do App**: A simple application to manage tasks. Users can add, remove, and check off tasks as they complete them.
-- **Scissors Paper Stone Game**: A classic game where two players take turns throwing either Scissors, Paper or Stone.
+- 📊 **Google Advanced Data Analytics**: Coursework and projects from Google's Data Analytics program
+- ✅ **Todo Application**: A responsive task management web app
+- 🎮 **Scissors Paper Stone Game**: An interactive browser game
+- 🎲 **Tic Tac Toe Game**: Classic game with modern design
+- 🎨 **Jun's Illustration**: Professional portfolio website
 
-## Getting Started
+## Technologies Used
 
-To view the projects, open the `src/index.html` file in your web browser. This file serves as the entry point to all the projects.
+- HTML5
+- CSS3 (with modern features like CSS Grid and Flexbox)
+- JavaScript
+- Python for Data Analysis
+- Responsive Design
 
-## Installation
+## Credits
 
-If you want to run the projects locally, clone this repository and open the `src` folder. You can also modify the CSS and JavaScript files to customize the applications.
+- Icons provided by [Icons8](https://icons8.com/)
 
 ## License
 
