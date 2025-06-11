@@ -11,6 +11,11 @@
     <header>
         <nav class="container nav">
             <h1>Harry Hartono</h1>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <div class="nav-links">
                 <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
@@ -19,12 +24,27 @@
         </nav>
     </header>
 
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.hamburger').classList.remove('active');
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+    </script>
+
     <main>
         <section class="container" id="projects">
             <h2>Featured Projects</h2>
             <div class="projects-grid">
                 <article class="project-card">
-                    <img src="images/google-analytics.jpg" alt="Google Analytics Project">
+                    <img src="images/icons8-analytics.gif" alt="Google Analytics Project">
                     <div class="project-content">
                         <h3>Google Advanced Data Analytics</h3>
                         <p>Completed coursework demonstrating proficiency in advanced data analytics techniques.</p>
@@ -33,7 +53,7 @@
                 </article>
 
                 <article class="project-card">
-                    <img src="images/todo-app.jpg" alt="Todo App">
+                    <img src="images/icons8-to-do.gif" alt="Todo App">
                     <div class="project-content">
                         <h3>Todo Application</h3>
                         <p>A responsive todo list application built with modern web technologies.</p>
@@ -42,11 +62,29 @@
                 </article>
 
                 <article class="project-card">
-                    <img src="images/tictactoe.jpg" alt="Tic Tac Toe Game">
+                    <img src="images/icons8-rock-100.png" alt="Tic Tac Toe Game">
                     <div class="project-content">
                         <h3>Scissors Paper Stone Game</h3>
                         <p>Interactive Scissors Paper Stone game showcasing JavaScript skills.</p>
                         <a href="https://harryhartono.github.io/scissors-paper-stone-app/" class="btn">View Project</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/icons8-tic-tac-toe-96.png" alt="Tic Tac Toe Game">
+                    <div class="project-content">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>Classic Tic Tac Toe game with interactive gameplay and sleek design.</p>
+                        <a href="https://harryhartono.github.io/tictactoe-game/" class="btn">View Project</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/icons8-website-100.png" alt="Jun's Illustration Website">
+                    <div class="project-content">
+                        <h3>Jun's Illustration</h3>
+                        <p>A professional portfolio website showcasing artistic works and illustrations.</p>
+                        <a href="https://junsillustration.com" class="btn">View Project</a>
                     </div>
                 </article>
             </div>
@@ -86,6 +124,7 @@
     <footer>
         <div class="container">
             <p>&copy; 2025 Harry Hartono. All rights reserved.</p>
+            <p class="attribution">Icons by <a href="https://icons8.com/" target="_blank" rel="noopener noreferrer">Icons8</a></p>
         </div>
     </footer>
 </body>
